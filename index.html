@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, ----l-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Table Wizard</title>
+</head>
+<body>
+        <div id="tablePlayground">
+
+        <h1>Table Wizard</h1>
+
+        <label for="tableInput" class="input-label">Number</label>
+        <input type="text" id="tableInput" aria-label="Number for multiplication table" placeholder="The desired number here"/> 
+        <label for="placeInput" class="input-label">Number of places</label>
+        <input type="text" id="placeInput" aria-label="Number of places" placeholder="Number of places here"/>
+        <button id="getTable" aria-label="Get multiplication table">Get table</button>
+        <button id="clearBtn" aria-label="Clear table and inputs">Clear</button>
+        <p id="errorMessage" aria-live="polite" aria-atomic="true"></p>
+        <div id="tableTxt" aria-live="polite"></div>
+    </div>
+
+<button class="scrollToTopButton" aria-label="Scroll to top">
+    <p id="toplogo">&#8593;</p>
+</button>
+
+<footer>
+    <p class="copy">
+        End of page
+        <br>
+        Sarthak
+        <br>
+        20 October 2024
+        <br>
+        <a href="">View in Github</a>
+    </p>
+</footer>
+</body>
+<script src="scripts/main.js"></script>
+</html>
