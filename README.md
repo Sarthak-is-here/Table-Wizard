@@ -28,6 +28,4 @@ A simple, accessible web app to generate multiplication tables for any number up
 MIT License
 
 ---
-![Logo](path/to/logo.png)
-
 Feel free to use, modify, and share!
