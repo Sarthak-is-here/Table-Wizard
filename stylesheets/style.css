@@ -12,7 +12,7 @@
     src: url('../assets/fonts/Carlito/Carlito-Regular.ttf') format("truetype");
 }
 @font-face {
-    font-family: "GloriaHallelujah-Regular";
+    font-family: "GloriaHallelujah";
     src: url("../assets/fonts/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf") format("truetype");
 }
 ::selection {
